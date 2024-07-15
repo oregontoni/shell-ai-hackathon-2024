@@ -27,6 +27,33 @@ We received various yearly ‘demand’ data from a fleet operator that must be 
 6. All buy operations happen at the beginning of the year and all sell operations happen at the end of the year.
 7. Every year at most 20% of the vehicles in the existing fleet can be sold.
 
+**Timeline**
+The hackathon launch webinar was on 31 May, 2024. Final submissions were due by 1pm on 01 Jul, 2024.
+
+**Participants**
+According to <a href="https://www.hackerearth.com/challenges/competitive/shellai-hackathon-2024/leaderboard/page/1/">HackerEarth</a>, more than 1,000 teams from around the world registered for the Shell.ai 2024 Decarbonisation hackathon.
+
+*Team Mission Zero members*:
+
+- Laura Ansari
+- Toni Chan
+- Charlie Liao
+- Victor Morales
+
+
+**Team Collaboration**
+
+Tech Stack:
+- Google Suite (Gdrive, Colab, Meet, TasksBoard)
+- VS code
+- Excel
+
+Coding of the solution:
+- objective (Charlie)
+- constraints 1-4 (Laura)
+- constraints 5-8 (Toni)
+- final cost calculation (Victor)
+
 **Our solution**
 
 In this repository, you can find the following files:
@@ -40,9 +67,4 @@ In this repository, you can find the following files:
     - vehicles_fuels.csv
     - vehicles.csv
 
-- PLACEHOLDER.ipynb: Python notebook that includes the optimization model
-
-- Streamlit folder
-
-    - PLACEHOLDER.py
-    - PLACEHOLDER_MODEL.pkl
+- shell_hackathon_last.ipynb: Python notebook that includes the optimization model
