@@ -1,0 +1,18 @@
+# conda-lock -f requirements.yml #>>updates requirements list
+# conda-lock install -n shell-ai-hackathon-2024 --file conda-lock.yml
+# conda env update -f requirements.yml
+# conda env export --no-builds --from-history | grep -v "prefix" > requirements.yml 
+# conda install conda-forge::pulp #use this line to install PulP
+#manually update for new pkgs in command line
+name: shell-ai-hackathon-2024
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy
+  - pandas
+  - jupyter
+  - matplotlib
+  - seaborn
+  - conda-lock

@@ -54,6 +54,15 @@ Coding of the solution:
 - constraints 5-8 (Toni)
 - final cost calculation (Victor)
 
+**Getting started**
+
+To run our code, please run the following commands:
+
+```shell
+conda-lock install -n shell-ai-hackathon-2024 --file conda-lock.yml
+conda install -n shell-ai-hackathon-2024 conda-forge::pulp
+```
+
 **Our solution**
 
 In this repository, you can find the following files:
