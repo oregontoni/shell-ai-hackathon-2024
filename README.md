@@ -10,6 +10,8 @@ The 5th edition of the Shell.ai Hackathon set an ambitious goal – using digita
 
 Road transport is the backbone of supply chain, playing a pivotal role in moving goods and bolstering the economy. In this hackathon, we had a chance to develop mathematical models to optimize fleet decarbonization strategies, to help fleet owners make informed decisions that align with their energy transition objectives and business outcomes.
 
+(The full problem statement shared by Shell.ai for this hackathon has also been uploaded to this repository.)
+
 **Challenge**
 
 Professional, delivery and operational fleets are a significant contributor to global greenhouse emissions. Fleet owners aspire to achieve net-zero emissions promptly; however, the transition presents a complex dilemma. Balancing the urgency of achieving net-zero emissions with business
@@ -46,13 +48,12 @@ According to <a href="https://www.hackerearth.com/challenges/competitive/shellai
 Tech Stack:
 - Google Suite (Gdrive, Colab, Meet, TasksBoard)
 - VS code
-- Excel
+- Jupyter notebook
 
 Coding of the solution:
-- objective (Charlie)
+- objective function (Charlie)
 - constraints 1-4 (Laura)
 - constraints 5-8 (Toni)
-- final cost calculation (Victor)
 
 **Getting started**
 
@@ -76,4 +77,5 @@ In this repository, you can find the following files:
     - vehicles_fuels.csv
     - vehicles.csv
 
-- shell_hackathon_last.ipynb: Python notebook that includes the optimization model
+- shell_hackathon_last_30points.ipynb: Python notebook that includes the optimization model
+- shell_hackathon_output_30.csv: the output file that we uploaded as our final submission to the hackathon website
