@@ -59,7 +59,7 @@ Coding of the solution:
 To run our code, please run the following commands:
 
 ```shell
-conda-lock install -n shell-ai-hackathon-2024 --file conda-lock.yml
+conda-lock install -n shell-ai-hackathon-2024
 conda install -n shell-ai-hackathon-2024 conda-forge::pulp
 ```
 

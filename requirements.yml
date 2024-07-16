@@ -1,5 +1,5 @@
 # conda-lock -f requirements.yml #>>updates requirements list
-# conda-lock install -n shell-ai-hackathon-2024 --file conda-lock.yml
+# conda-lock install -n shell-ai-hackathon-2024
 # conda env update -f requirements.yml
 # conda env export --no-builds --from-history | grep -v "prefix" > requirements.yml 
 # conda install conda-forge::pulp #use this line to install PulP
